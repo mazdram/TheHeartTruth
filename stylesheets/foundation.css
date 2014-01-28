@@ -55,6 +55,7 @@ background-color: #e7e7e7;
 
 .rowWrapTop{
 background-image: url('http://ashley-bootstrap3-website-template.little-neko.com/main/files/images/theme-pics/paralax-grey-3.jpg');
+
 }
 
 .rowWrapRedPd {
@@ -65,8 +66,18 @@ font-style: white;
 
 }
 
+p.resources {
+font-size: 85.5%;
+margin-top: .8em;
+font-weight: bold;
+
+}
+
+img.resources {
+float:left;margin-right:10px;margin-bottom:40px;
 
 
+}
 
 /* Scss */
 .orbit-wrapper {
@@ -83,9 +94,10 @@ font-style: white;
 /* Links ---------------------- */
 a img { border: none; }
 
-a { color: #2ba6cb; text-decoration: none; line-height: inherit; }
+a { color: #222222; text-decoration: none; line-height: inherit; font-size: 25px; }
 
-a:hover { color: #2795b6; }
+
+a:hover { color: red; }
 
 a:focus { color: #2795b6; }
 
@@ -127,14 +139,14 @@ p.lead { font-size: 17.5px; line-height: 1.6; margin-bottom: 17px; }
 
 aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; font-style: normal; color: #222222; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
+h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; font-style: normal; color: #222222; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px;  }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
 h1 { font-size: 44px; }
 
 h2 { font-size: 37px; font-family: "Open Sans", "Helvetica Neue", "Helvetica",; }
 
-h3 { font-size: 27px; }
+h3 { font-size: 27px; margin-left:.8em; }
 
 h4 { font-size: 23px; }
 
